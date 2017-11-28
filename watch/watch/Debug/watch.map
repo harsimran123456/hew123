@@ -1,0 +1,43 @@
+Optimizing Linkage Editor (V.10.02.00.000)        27-Nov-2017 19:28:00
+
+*** Options ***
+
+-subcommand=C:\WorkSpace\watch\watch\Debug\watch.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\WorkSpace\watch\watch\Debug\watch.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/010,C_1,C_2,C,L*,C$*,D*,PResetPRG,P,W*/0FFFC0000,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\WorkSpace\watch\watch\Debug\dbsct.obj"
+-input="C:\WorkSpace\watch\watch\Debug\hwsetup.obj"
+-input="C:\WorkSpace\watch\watch\Debug\id_code.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_ADC_12.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_BSC.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_CMT.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_DMAC.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_IIC.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_INTC.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_MTU.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_not_RPDL.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_POE.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_SCI.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_TMR.obj"
+-input="C:\WorkSpace\watch\watch\Debug\Interrupt_WDT.obj"
+-input="C:\WorkSpace\watch\watch\Debug\lcd.obj"
+-input="C:\WorkSpace\watch\watch\Debug\main_wdt.obj"
+-input="C:\WorkSpace\watch\watch\Debug\resetprg.obj"
+-input="C:\WorkSpace\watch\watch\Debug\sbrk.obj"
+-input="C:\WorkSpace\watch\watch\Debug\switch.obj"
+-input="C:\WorkSpace\watch\watch\Debug\wdt.obj"
+-input="C:\WorkSpace\watch\watch\Debug\YRDKRX62N_RSPI_API.obj"
+-library="C:\WorkSpace\watch\watch\RPDL\RX62N_library.lib"
+-library="C:\WorkSpace\watch\watch\GlyphLib_v2.lib"
+-library="C:\WorkSpace\watch\watch\Debug\watch.lib"
+-output="C:\WorkSpace\watch\watch\Debug\watch.abs"
+-end
+
+*** Error information ***
+
+** L2310 (E) Undefined external symbol "_fffYRDKRX62N_RSPI_Init" referenced in "C:\WorkSpace\watch\watch\Debug\main_wdt.obj"

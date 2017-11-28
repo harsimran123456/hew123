@@ -1,0 +1,4 @@
+-cpu=rx600
+-patch=rx610
+-output="C:\WorkSpace\watch\watch\Debug\watch.lib"
+-head=runtime,stdio,stdlib

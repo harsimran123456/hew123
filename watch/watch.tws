@@ -1,0 +1,27 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"watch" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\WorkSpace\watch\watch\dbsct.c" 
+"C:\WorkSpace\watch\watch\hwsetup.c" 
+"C:\WorkSpace\watch\watch\id_code.c" 
+"C:\WorkSpace\watch\watch\lcd.c" 
+"C:\WorkSpace\watch\watch\main_wdt.c" 
+"C:\WorkSpace\watch\watch\resetprg.c" 
+"C:\WorkSpace\watch\watch\wdt.c" 
+[WORKSPACE_FILE_STATES]
+"C:\WorkSpace\watch\watch\dbsct.c" 0 0 956 250 0 4 
+"C:\WorkSpace\watch\watch\hwsetup.c" 104 104 956 250 0 3 
+"C:\WorkSpace\watch\watch\id_code.c" 26 26 956 250 0 5 
+"C:\WorkSpace\watch\watch\lcd.c" 0 0 1076 412 0 6 
+"C:\WorkSpace\watch\watch\main_wdt.c" 26 26 956 250 0 0 
+"C:\WorkSpace\watch\watch\resetprg.c" 78 78 956 250 0 2 
+"C:\WorkSpace\watch\watch\wdt.c" 52 52 956 250 0 1 
+[LOADED_PROJECTS]
+"watch" 
+[END]

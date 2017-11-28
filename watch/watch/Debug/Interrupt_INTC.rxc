@@ -1,0 +1,9 @@
+-cpu=rx600
+-patch=rx610
+-lang=c
+-include="C:\WorkSpace\watch\watch"
+-include="C:\WorkSpace\watch\watch\RPDL"
+-output=obj="C:\WorkSpace\watch\watch\Debug\Interrupt_INTC.obj"
+-debug
+"C:\WorkSpace\watch\watch\RPDL\Interrupt_INTC.c"
+-nologo
